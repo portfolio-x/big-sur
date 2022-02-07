@@ -8,7 +8,7 @@ function AppBar() {
 
   let active = useMemo(() => {
     if (appStore.active) {
-      return appStore.apps.find((app) => app.id === appStore.active.id);
+      return appStore.active;
     }
     return appStore.apps.find((app) => app.id === 'finder');
   }, [appStore.active, appStore.apps]);
