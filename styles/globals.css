@@ -1,16 +1,32 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background-image: url('/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-4096x2304-1455.jpg') !important;
+	background-size: 100% 100% !important ;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'SF Pro';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/SF-Pro-Display-Regular.otf');
+}
+
+@font-face {
+	font-family: 'SF Pro';
+	font-style: normal;
+	font-weight: 600;
+	src: url('/fonts/SF-Pro-Display-Bold.otf');
 }
